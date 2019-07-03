@@ -1,8 +1,11 @@
-magic = [5,10,6,3,8,1]
-dist =  [5,1,3,8,4,3]
+magic = [4, 5, 3, 4, 6, 1, 4, 7] 
+dist =  [5, 2, 3, 4, 2, 5, 4, 7]
 
 #magic=[2,4,5,2]
 #dist = [4,3,1,3]
+
+def fixInput(*arg):
+    pass
 
 def optimizeIt(start,magic,dist,path):
    

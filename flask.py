@@ -1,11 +1,13 @@
 
 
-requirements = [4,6,6,7]
-orders = requirements
-markings = ["3 5 7", "6 8 9", "3 5 6"]
-flasks = markings
+#requirements = [4,6,6,7]
+#orders = requirements
+#markings = ["3 5 7", "6 8 9", "3 5 6"]
+#flasks = markings
 #lt = flasks[0].replace(" ",",")
 
+orders = [4,6]
+flasks = [[0,5],[0,7],[0,10],[1,4],[1,10]]
 
 def filterFlasks(orders,flasks):
     rem_flasks=[]
