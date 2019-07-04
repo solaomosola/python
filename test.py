@@ -1,2 +1,3 @@
-for i in range(7,7):
-    print(i)
+data = [i for i in range(10)]
+
+
